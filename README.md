@@ -16,13 +16,17 @@ Custom Views, @IBDesignable, @IBInspetable, UIBezierPath, Draw Circle, arcs and 
 ### Lecture 7: Multiple MVCs
 
 [Psychologist Demo](https://github.com/palewar/CS193P/tree/master/Psychologist) 
+
 [Psychologist Popover Demo](https://github.com/palewar/CS193P/tree/master/Psychologist%20Popover) 
+
 [AxesDrawer Class](https://github.com/palewar/CS193P/blob/master/AxesDrawer.swift) 
 
 ### Lecture 8: VCL Autolayout
 
 [Psychologist VCL Demo](https://github.com/palewar/CS193P/tree/master/Psychologist%20VCL)
+
 [ShowSizeClass Demo](https://github.com/palewar/CS193P/tree/master/ShowSizeClass)
+
 [Auotlayout Demo](https://github.com/palewar/CS193P/tree/master/Autolayout)
 
 ### Lecture 9: ScrollView & Multithreading
@@ -32,6 +36,7 @@ Custom Views, @IBDesignable, @IBInspetable, UIBezierPath, Draw Circle, arcs and 
 ### Lecture 10: Table View
 
 [SmashTag Demo](https://github.com/palewar/CS193P/tree/master/Smashtag)
+
 [Twitter Classes](https://github.com/palewar/CS193P/tree/master/Twitter)
 
 ### Lecture 12: Dynamic Animation
