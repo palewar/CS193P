@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9ECAE71A82F2590038E439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ECAE61A82F2590038E439 /* AppDelegate.swift */; };
+		EC9ECAE91A82F2590038E439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ECAE81A82F2590038E439 /* ViewController.swift */; };
+		EC9ECAEC1A82F2590038E439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9ECAEA1A82F2590038E439 /* Main.storyboard */; };
+		EC9ECAEE1A82F2590038E439 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9ECAED1A82F2590038E439 /* Images.xcassets */; };
+		EC9ECAF11A82F2590038E439 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9ECAEF1A82F2590038E439 /* LaunchScreen.xib */; };
+		EC9ECAFD1A82F2590038E439 /* CassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ECAFC1A82F2590038E439 /* CassiniTests.swift */; };
+		EC9ECB071A82F2980038E439 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ECB061A82F2980038E439 /* ImageViewController.swift */; };
+		EC9ECB091A82F5360038E439 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ECB081A82F5360038E439 /* DemoURL.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9ECAF71A82F2590038E439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9ECAD91A82F2590038E439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9ECAE01A82F2590038E439;
+			remoteInfo = Cassini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9ECAE11A82F2590038E439 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9ECAE51A82F2590038E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9ECAE61A82F2590038E439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC9ECAE81A82F2590038E439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC9ECAEB1A82F2590038E439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9ECAED1A82F2590038E439 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC9ECAF01A82F2590038E439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC9ECAF61A82F2590038E439 /* CassiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9ECAFB1A82F2590038E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9ECAFC1A82F2590038E439 /* CassiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniTests.swift; sourceTree = "<group>"; };
+		EC9ECB061A82F2980038E439 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EC9ECB081A82F5360038E439 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9ECADE1A82F2590038E439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ECAF31A82F2590038E439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9ECAD81A82F2590038E439 = {
+			isa = PBXGroup;
+			children = (
+				EC9ECAE31A82F2590038E439 /* Cassini */,
+				EC9ECAF91A82F2590038E439 /* CassiniTests */,
+				EC9ECAE21A82F2590038E439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9ECAE21A82F2590038E439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ECAE11A82F2590038E439 /* Cassini.app */,
+				EC9ECAF61A82F2590038E439 /* CassiniTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9ECAE31A82F2590038E439 /* Cassini */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ECAEA1A82F2590038E439 /* Main.storyboard */,
+				EC9ECB061A82F2980038E439 /* ImageViewController.swift */,
+				EC9ECAE81A82F2590038E439 /* ViewController.swift */,
+				EC9ECB081A82F5360038E439 /* DemoURL.swift */,
+				EC9ECAE41A82F2590038E439 /* Supporting Files */,
+			);
+			path = Cassini;
+			sourceTree = "<group>";
+		};
+		EC9ECAE41A82F2590038E439 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ECAEF1A82F2590038E439 /* LaunchScreen.xib */,
+				EC9ECAED1A82F2590038E439 /* Images.xcassets */,
+				EC9ECAE61A82F2590038E439 /* AppDelegate.swift */,
+				EC9ECAE51A82F2590038E439 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9ECAF91A82F2590038E439 /* CassiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ECAFC1A82F2590038E439 /* CassiniTests.swift */,
+				EC9ECAFA1A82F2590038E439 /* Supporting Files */,
+			);
+			path = CassiniTests;
+			sourceTree = "<group>";
+		};
+		EC9ECAFA1A82F2590038E439 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ECAFB1A82F2590038E439 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9ECAE01A82F2590038E439 /* Cassini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9ECB001A82F2590038E439 /* Build configuration list for PBXNativeTarget "Cassini" */;
+			buildPhases = (
+				EC9ECADD1A82F2590038E439 /* Sources */,
+				EC9ECADE1A82F2590038E439 /* Frameworks */,
+				EC9ECADF1A82F2590038E439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cassini;
+			productName = Cassini;
+			productReference = EC9ECAE11A82F2590038E439 /* Cassini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9ECAF51A82F2590038E439 /* CassiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9ECB031A82F2590038E439 /* Build configuration list for PBXNativeTarget "CassiniTests" */;
+			buildPhases = (
+				EC9ECAF21A82F2590038E439 /* Sources */,
+				EC9ECAF31A82F2590038E439 /* Frameworks */,
+				EC9ECAF41A82F2590038E439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9ECAF81A82F2590038E439 /* PBXTargetDependency */,
+			);
+			name = CassiniTests;
+			productName = CassiniTests;
+			productReference = EC9ECAF61A82F2590038E439 /* CassiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9ECAD91A82F2590038E439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Stanford University";
+				TargetAttributes = {
+					EC9ECAE01A82F2590038E439 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC9ECAF51A82F2590038E439 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EC9ECAE01A82F2590038E439;
+					};
+				};
+			};
+			buildConfigurationList = EC9ECADC1A82F2590038E439 /* Build configuration list for PBXProject "Cassini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9ECAD81A82F2590038E439;
+			productRefGroup = EC9ECAE21A82F2590038E439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9ECAE01A82F2590038E439 /* Cassini */,
+				EC9ECAF51A82F2590038E439 /* CassiniTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9ECADF1A82F2590038E439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ECAEC1A82F2590038E439 /* Main.storyboard in Resources */,
+				EC9ECAF11A82F2590038E439 /* LaunchScreen.xib in Resources */,
+				EC9ECAEE1A82F2590038E439 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ECAF41A82F2590038E439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9ECADD1A82F2590038E439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ECB091A82F5360038E439 /* DemoURL.swift in Sources */,
+				EC9ECAE91A82F2590038E439 /* ViewController.swift in Sources */,
+				EC9ECB071A82F2980038E439 /* ImageViewController.swift in Sources */,
+				EC9ECAE71A82F2590038E439 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ECAF21A82F2590038E439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ECAFD1A82F2590038E439 /* CassiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9ECAF81A82F2590038E439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9ECAE01A82F2590038E439 /* Cassini */;
+			targetProxy = EC9ECAF71A82F2590038E439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9ECAEA1A82F2590038E439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9ECAEB1A82F2590038E439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9ECAEF1A82F2590038E439 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9ECAF01A82F2590038E439 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9ECAFE1A82F2590038E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9ECAFF1A82F2590038E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9ECB011A82F2590038E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cassini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC9ECB021A82F2590038E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cassini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC9ECB041A82F2590038E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CassiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassini.app/Cassini";
+			};
+			name = Debug;
+		};
+		EC9ECB051A82F2590038E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CassiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassini.app/Cassini";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9ECADC1A82F2590038E439 /* Build configuration list for PBXProject "Cassini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9ECAFE1A82F2590038E439 /* Debug */,
+				EC9ECAFF1A82F2590038E439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9ECB001A82F2590038E439 /* Build configuration list for PBXNativeTarget "Cassini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9ECB011A82F2590038E439 /* Debug */,
+				EC9ECB021A82F2590038E439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9ECB031A82F2590038E439 /* Build configuration list for PBXNativeTarget "CassiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9ECB041A82F2590038E439 /* Debug */,
+				EC9ECB051A82F2590038E439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9ECAD91A82F2590038E439 /* Project object */;
+}

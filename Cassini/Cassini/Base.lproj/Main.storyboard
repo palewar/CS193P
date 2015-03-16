@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="at8-kL-tFK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cassini" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SE2-Te-1gE">
+                                <rect key="frame" x="224" y="265" width="153" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="Cassini">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u6z-f8-mzI" kind="showDetail" identifier="Cassini" id="6ZZ-dX-P4o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stC-36-Gdu">
+                                <rect key="frame" x="231" y="335" width="139" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="Saturn">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u6z-f8-mzI" kind="showDetail" identifier="Saturn" id="a3b-nc-V48"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYF-iC-3oX">
+                                <rect key="frame" x="245" y="195" width="111" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="Earth">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u6z-f8-mzI" kind="showDetail" identifier="Earth" id="Rn5-3Y-4QP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="stC-36-Gdu" firstAttribute="top" secondItem="SE2-Te-1gE" secondAttribute="bottom" id="6rb-GN-lon"/>
+                            <constraint firstAttribute="centerX" secondItem="SE2-Te-1gE" secondAttribute="centerX" id="AOg-RQ-owy"/>
+                            <constraint firstItem="eYF-iC-3oX" firstAttribute="centerX" secondItem="SE2-Te-1gE" secondAttribute="centerX" id="ApY-8M-MqH"/>
+                            <constraint firstAttribute="centerY" secondItem="SE2-Te-1gE" secondAttribute="centerY" id="Sj6-v6-uuK"/>
+                            <constraint firstItem="SE2-Te-1gE" firstAttribute="centerX" secondItem="stC-36-Gdu" secondAttribute="centerX" id="p00-yJ-MmJ"/>
+                            <constraint firstItem="SE2-Te-1gE" firstAttribute="top" secondItem="eYF-iC-3oX" secondAttribute="bottom" id="y2h-OZ-iwE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wZJ-gf-g1n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2178" y="-662"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cYO-RG-G1L">
+            <objects>
+                <navigationController id="2NK-9D-65H" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9G9-8C-Iki">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IKP-6w-0yz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="94W-MM-6qw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="-662"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="puq-W0-g5o">
+            <objects>
+                <splitViewController id="at8-kL-tFK" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="2NK-9D-65H" kind="relationship" relationship="masterViewController" id="Aui-IX-aht"/>
+                        <segue destination="u6z-f8-mzI" kind="relationship" relationship="detailViewController" id="nWi-Nl-B1q"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JIo-La-201" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="-330"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="zj0-tn-sfN">
+            <objects>
+                <viewController id="u6z-f8-mzI" customClass="ImageViewController" customModule="Cassini" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="obg-up-Zeh"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ym-Am-U2b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ryq-aT-Yk2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2u-ta-4k5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="evY-aV-ezR">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="evY-aV-ezR" secondAttribute="centerY" id="1oM-mx-GN8"/>
+                            <constraint firstAttribute="centerX" secondItem="evY-aV-ezR" secondAttribute="centerX" id="Ioy-7g-UDj"/>
+                            <constraint firstItem="d2u-ta-4k5" firstAttribute="bottom" secondItem="6Ym-Am-U2b" secondAttribute="top" id="JzC-w9-2br"/>
+                            <constraint firstItem="d2u-ta-4k5" firstAttribute="top" secondItem="ryq-aT-Yk2" secondAttribute="top" id="Yab-s9-BwU"/>
+                            <constraint firstItem="d2u-ta-4k5" firstAttribute="leading" secondItem="ryq-aT-Yk2" secondAttribute="leading" id="d4U-Mg-lhM"/>
+                            <constraint firstAttribute="trailing" secondItem="d2u-ta-4k5" secondAttribute="trailing" id="zv2-kV-Jhv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="d2u-ta-4k5" id="NK1-jP-Pfj"/>
+                        <outlet property="spinner" destination="evY-aV-ezR" id="qfD-Vh-Wig"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nIa-Kn-utq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1876" y="163"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nWi-Nl-B1q"/>
+    </inferredMetricsTieBreakers>
+</document>
