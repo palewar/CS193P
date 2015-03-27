@@ -50,6 +50,14 @@ Demo code from the Application Lifecycle, Notifications and Core Motion lecture.
 
 [Bouncer](https://github.com/palewar/CS193P/tree/master/Bouncer) 
 
+### Lecture 14: MapKit
+
+[Trax MapKit](https://github.com/palewar/CS193P/tree/master/Trax%20MapKit)
+
+### Lecture 15: Segues, Notifications, Visual Effects
+
+[Trax Segue](https://github.com/palewar/CS193P/tree/master/Trax%20Segue)
+
 ## License
 
 This work by Stanford University is licensed under a [Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/). Based on a work at [cs193p.stanford.edu](http://cs193p.stanford.edu/)
