@@ -1,0 +1,18 @@
+/* Message in an alert when the user types in an incorrect user name or password */
+"Invalid user name or password" = "用戶名或密碼錯誤";
+
+/* Reports the number of days ago and time that the user last logged in */
+"Last Login %@ days ago at %@" = "最后登录: %@天前 %@";
+
+/* Title of alert when user types in an incorrect user name or password */
+"Login Error" = "登錄失敗";
+
+/* Prompt for the user's password when it is not secure (i.e. plain text) */
+"Password" = "密碼";
+
+/* Prompt for an obscured (not plain text) password */
+"Secured Password" = "安全密碼";
+
+/* The only button available in an alert presented when the user types incorrect user name or password */
+"Try Again" = "重新輸入";
+

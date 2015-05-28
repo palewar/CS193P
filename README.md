@@ -58,6 +58,18 @@ Demo code from the Application Lifecycle, Notifications and Core Motion lecture.
 
 [Trax Segue](https://github.com/palewar/CS193P/tree/master/Trax%20Segue)
 
+### Lecture 16: Camera File System Embed
+
+[Trax Camera File Embed]()
+
+### Lecture 17: Settings Localization
+Bouncer and internationalized version of Autolayout demo.
+
+[Bouncer Settings]()
+
+[Autolayout Localized]()
+
+
 ## License
 
 This work by Stanford University is licensed under a [Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/). Based on a work at [cs193p.stanford.edu](http://cs193p.stanford.edu/)

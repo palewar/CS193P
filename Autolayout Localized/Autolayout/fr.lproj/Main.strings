@@ -1,0 +1,21 @@
+/* Class = "IBUILabel"; text = "Company"; ObjectID = "NJe-up-XBy"; */
+"NJe-up-XBy.text" = "Company";
+
+/* Class = "IBUILabel"; text = "Last Login"; ObjectID = "Qyg-L4-bea"; */
+"Qyg-L4-bea.text" = "Dernière Connexion";
+
+/* Class = "IBUIButton"; normalTitle = "Log In"; ObjectID = "WYu-Yp-1gj"; */
+"WYu-Yp-1gj.normalTitle" = "S'Identifier";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "cXO-uR-WaQ"; */
+"cXO-uR-WaQ.text" = "Nom d'utilisateur";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "ogl-Tg-yZt"; */
+"ogl-Tg-yZt.text" = "Name";
+
+/* Class = "IBUILabel"; text = "Password"; ObjectID = "rMP-qn-PtZ"; */
+"rMP-qn-PtZ.text" = "Mot de Passe";
+
+/* Class = "IBUIButton"; normalTitle = "Change Security"; ObjectID = "u79-Ux-N9h"; */
+"u79-Ux-N9h.normalTitle" = "Change de Sécurité";
+
