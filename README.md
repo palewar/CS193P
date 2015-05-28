@@ -60,14 +60,14 @@ Demo code from the Application Lifecycle, Notifications and Core Motion lecture.
 
 ### Lecture 16: Camera File System Embed
 
-[Trax Camera File Embed]()
+[Trax Camera File Embed](https://github.com/palewar/CS193P/tree/master/Trax%20Camera%20File%20Embed)
 
 ### Lecture 17: Settings Localization
 Bouncer and internationalized version of Autolayout demo.
 
-[Bouncer Settings]()
+[Bouncer Settings](https://github.com/palewar/CS193P/tree/master/Bouncer%20Settings)
 
-[Autolayout Localized]()
+[Autolayout Localized](https://github.com/palewar/CS193P/tree/master/Autolayout%20Localized)
 
 
 ## License
